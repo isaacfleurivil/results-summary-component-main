@@ -9,45 +9,58 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <main id="main-content">
-    <div class="left-column">
-      <p>Your Result</p>
+
+    <section class="left-column">
+      <p class="result transparent-text">Your Result</p>
       <div class="circle">
-        <span class="number">76</span>
-        <span class="out-of-hundred">of 100</span>
+        <span class="number white-text">76</span>
+        <span class="out-of-hundred transparent-text">of 100</span>
       </div>
-      <p>Great</p>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </div>
-    <div class="right-column">
-      <p>Summary</p>
-      <div class="stats reaction">
-        <img src="" alt="">
-        <span>Reaction</span>
-        <p>80/100</p>
+      <p class="great white-text bold">Great</p>
+      <p class="result-description transparent-text">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="right-column">
+
+      <p class="summary dark-color">Summary</p>
+
+      <div class="stats-container">
+        
+        <div class="stats reaction">
+          <span><img src="images/icon-reaction.svg" alt="lighting bolt icon">Reaction</span>
+
+          <p><span class="dark-color">80</span> <span class="grey-text">/ 100</span></p>
+        </div>
+        
+        <div class="stats memory">
+          <span><img src="images/icon-memory.svg" alt="brain icon">Memory</span>
+
+          <p><span class="dark-color">92</span> <span class="grey-text">/ 100</span></p>
+        </div>
+
+        <div class="stats verbal">
+          <span><img src="images/icon-verbal.svg" alt="chat bubble icon">Verbal</span>
+
+          <p><span class="dark-color">61</span> <span class="grey-text">/ 100</span></p>
+        </div>
+
+        <div class="stats visual">
+          <span><img src="images/icon-visual.svg" alt="eye ball icon">Visual</span>
+
+          <p><span class="dark-color">72</span> <span class="grey-text">/ 100</span></p>
+        </div>  
       </div>
-      <div class="stats memory">
-        <img src="" alt="">
-        <span>Reaction</span>
-        <p>92/100</p>
-      </div>
-      <div class="stats verbal">
-        <img src="" alt="">
-        <span>Reaction</span>
-        <p>61/100</p>
-      </div>
-      <div class="stats visual">
-        <img src="" alt="">
-        <span>Reaction</span>
-        <p>72/100</p>
-      </div>
+      
+      
     
-      <div class="button">Continue</div>
-    </div>
+      <button type="submit">Continue</button>
+
+    </section>
   </main>
   <!-- <footer>
     <div class="attribution">
