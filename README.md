@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshots
 
- Regular 
+ - Regular 
 ![Image](./images/screenshot-1.png)
 
- Responsive
+ - Responsive
 ![Image](./images/responsive-screenshot-1.png)
 
 
