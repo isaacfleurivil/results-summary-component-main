@@ -160,6 +160,10 @@ body {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+footer {
+    margin: 0 auto;
+}
+
 @media (max-width: 530px) {
 
     #main-content {
@@ -169,6 +173,10 @@ body {
 
 }
 @media (max-width: 500px) {
+
+    body {
+        overflow: hidden;
+    }
 
     #main-content {
         flex-direction: column;
@@ -180,6 +188,15 @@ body {
         width: 90%;
         border-top-left-radius: unset;
         border-top-right-radius: unset;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+    footer {
+        transform: scale(0.8)
     }
 
 
