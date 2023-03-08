@@ -160,8 +160,27 @@ body {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (max-width: 540px) {
+@media (max-width: 530px) {
+
+    #main-content {
+        margin-bottom: 20px;
+        transform: scale(0.9)
+    }
+
+}
+@media (max-width: 500px) {
+
     #main-content {
         flex-direction: column;
+        box-shadow: unset;
+        transform: unset;
     }
+
+    #main-content .left-column, #main-content .right-column {
+        width: 90%;
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+
+
 }
