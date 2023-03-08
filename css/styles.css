@@ -38,7 +38,7 @@ body {
     height: 350px;
     padding: 10px 30px;
     border: 1px solid black;
-    border-radius: 1.2em;
+    border-radius: 1.4em;
 }
 
 /* LEFT COLUMN */
@@ -138,4 +138,21 @@ body {
     padding: 0;
 }
 
+#main-content .right-column button {
+    background-color: hsl(224, 30%, 27%);
+    color:hsla(0, 0%, 100%, 0.9);
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 1.5em;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+#main-content .right-column button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
 
